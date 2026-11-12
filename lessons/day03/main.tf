@@ -9,12 +9,12 @@ terraform {
 
 provider "aws" {
   # Configuration options
-    region = "us-east-1"
+    region = "ap-southeast-2"
 }
 
 # Create a S3 bucket
-resource "aws_s3_bucket" "tf_test_baivab_bucket" {
-  bucket = "my-tf-test-baiv-bucket-101"
+resource "aws_s3_bucket" "first_bucket" {
+  bucket = "710507380426-terraform-1st-bucket"
 
   tags = {
     Name        = "My bucket"
