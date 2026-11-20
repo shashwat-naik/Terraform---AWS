@@ -22,3 +22,7 @@ override.tf.json
 # Terraform CLI configuration
 .terraformrc
 terraform.rc
+
+# Local Floci SSH keys
+.keys/
+*.pem
